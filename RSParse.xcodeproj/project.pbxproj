@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFFCBF4E177A8E6800780462 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFCBE76177A8ACC00780462 /* Foundation.framework */; };
+		CFFCBF5B177A8E6800780462 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFCBE84177A8ACC00780462 /* XCTest.framework */; };
+		CFFCBF5C177A8E6800780462 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFCBE76177A8ACC00780462 /* Foundation.framework */; };
+		CFFCBF5D177A8E6800780462 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFCBE87177A8ACC00780462 /* UIKit.framework */; };
+		CFFCBF60177A8E6800780462 /* libRSParse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFCBF4D177A8E6800780462 /* libRSParse.a */; };
+		CFFCBF6F177A8E7B00780462 /* RSParseUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCBF3D177A8B8000780462 /* RSParseUser.m */; };
+		CFFCBF70177A8E7B00780462 /* RSParseRole.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCBF3F177A8B8000780462 /* RSParseRole.m */; };
+		CFFCBF71177A8E8A00780462 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCBF1F177A8B6200780462 /* AFHTTPClient.m */; };
+		CFFCBF72177A8E8A00780462 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCBF21177A8B6200780462 /* AFHTTPRequestOperation.m */; };
+		CFFCBF74177A8E8A00780462 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCBF25177A8B6200780462 /* AFJSONRequestOperation.m */; };
+		CFFCBF75177A8E8A00780462 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCBF27177A8B6200780462 /* AFNetworkActivityIndicatorManager.m */; };
+		CFFCBF76177A8E8A00780462 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCBF2A177A8B6200780462 /* AFPropertyListRequestOperation.m */; };
+		CFFCBF77177A8E8A00780462 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCBF2C177A8B6200780462 /* AFURLConnectionOperation.m */; };
+		CFFCBF7C177A8EE600780462 /* RSParse.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCBF7B177A8EE600780462 /* RSParse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFFCBF5E177A8E6800780462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFCBE6B177A8ACC00780462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFCBF4C177A8E6800780462;
+			remoteInfo = RSParse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFFCBF4B177A8E6800780462 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CFFCBE76177A8ACC00780462 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFFCBE84177A8ACC00780462 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CFFCBE87177A8ACC00780462 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CFFCBF1E177A8B6200780462 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		CFFCBF1F177A8B6200780462 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		CFFCBF20177A8B6200780462 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CFFCBF21177A8B6200780462 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CFFCBF24177A8B6200780462 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		CFFCBF25177A8B6200780462 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		CFFCBF26177A8B6200780462 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		CFFCBF27177A8B6200780462 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		CFFCBF28177A8B6200780462 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CFFCBF29177A8B6200780462 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		CFFCBF2A177A8B6200780462 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		CFFCBF2B177A8B6200780462 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		CFFCBF2C177A8B6200780462 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		CFFCBF3C177A8B8000780462 /* RSParseUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSParseUser.h; sourceTree = "<group>"; };
+		CFFCBF3D177A8B8000780462 /* RSParseUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSParseUser.m; sourceTree = "<group>"; };
+		CFFCBF3E177A8B8000780462 /* RSParseRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSParseRole.h; sourceTree = "<group>"; };
+		CFFCBF3F177A8B8000780462 /* RSParseRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSParseRole.m; sourceTree = "<group>"; };
+		CFFCBF4D177A8E6800780462 /* libRSParse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRSParse.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFCBF5A177A8E6800780462 /* RSParseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSParseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFCBF7A177A8EE600780462 /* RSParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSParse.h; sourceTree = "<group>"; };
+		CFFCBF7B177A8EE600780462 /* RSParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSParse.m; sourceTree = "<group>"; };
+		CFFCBF7D177A8F3600780462 /* RSParse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSParse-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFFCBF4A177A8E6800780462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFCBF4E177A8E6800780462 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCBF57177A8E6800780462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFCBF5B177A8E6800780462 /* XCTest.framework in Frameworks */,
+				CFFCBF5D177A8E6800780462 /* UIKit.framework in Frameworks */,
+				CFFCBF60177A8E6800780462 /* libRSParse.a in Frameworks */,
+				CFFCBF5C177A8E6800780462 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFFCBE6A177A8ACC00780462 = {
+			isa = PBXGroup;
+			children = (
+				CFFCBE78177A8ACC00780462 /* RSParse */,
+				CFFCBF1D177A8B6200780462 /* AFNetworking */,
+				CFFCBE75177A8ACC00780462 /* Frameworks */,
+				CFFCBE74177A8ACC00780462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFCBE74177A8ACC00780462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCBF4D177A8E6800780462 /* libRSParse.a */,
+				CFFCBF5A177A8E6800780462 /* RSParseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFCBE75177A8ACC00780462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCBE76177A8ACC00780462 /* Foundation.framework */,
+				CFFCBE84177A8ACC00780462 /* XCTest.framework */,
+				CFFCBE87177A8ACC00780462 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFFCBE78177A8ACC00780462 /* RSParse */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCBF7A177A8EE600780462 /* RSParse.h */,
+				CFFCBF7B177A8EE600780462 /* RSParse.m */,
+				CFFCBF3C177A8B8000780462 /* RSParseUser.h */,
+				CFFCBF3D177A8B8000780462 /* RSParseUser.m */,
+				CFFCBF3E177A8B8000780462 /* RSParseRole.h */,
+				CFFCBF3F177A8B8000780462 /* RSParseRole.m */,
+				CFFCBE79177A8ACC00780462 /* Supporting Files */,
+			);
+			path = RSParse;
+			sourceTree = "<group>";
+		};
+		CFFCBE79177A8ACC00780462 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCBF7D177A8F3600780462 /* RSParse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFFCBF1D177A8B6200780462 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCBF1E177A8B6200780462 /* AFHTTPClient.h */,
+				CFFCBF1F177A8B6200780462 /* AFHTTPClient.m */,
+				CFFCBF20177A8B6200780462 /* AFHTTPRequestOperation.h */,
+				CFFCBF21177A8B6200780462 /* AFHTTPRequestOperation.m */,
+				CFFCBF24177A8B6200780462 /* AFJSONRequestOperation.h */,
+				CFFCBF25177A8B6200780462 /* AFJSONRequestOperation.m */,
+				CFFCBF26177A8B6200780462 /* AFNetworkActivityIndicatorManager.h */,
+				CFFCBF27177A8B6200780462 /* AFNetworkActivityIndicatorManager.m */,
+				CFFCBF28177A8B6200780462 /* AFNetworking.h */,
+				CFFCBF29177A8B6200780462 /* AFPropertyListRequestOperation.h */,
+				CFFCBF2A177A8B6200780462 /* AFPropertyListRequestOperation.m */,
+				CFFCBF2B177A8B6200780462 /* AFURLConnectionOperation.h */,
+				CFFCBF2C177A8B6200780462 /* AFURLConnectionOperation.m */,
+			);
+			name = AFNetworking;
+			path = AFNetworking/AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFFCBF4C177A8E6800780462 /* RSParse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFCBF69177A8E6800780462 /* Build configuration list for PBXNativeTarget "RSParse" */;
+			buildPhases = (
+				CFFCBF49177A8E6800780462 /* Sources */,
+				CFFCBF4A177A8E6800780462 /* Frameworks */,
+				CFFCBF4B177A8E6800780462 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSParse;
+			productName = RSParse;
+			productReference = CFFCBF4D177A8E6800780462 /* libRSParse.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CFFCBF59177A8E6800780462 /* RSParseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFCBF6C177A8E6800780462 /* Build configuration list for PBXNativeTarget "RSParseTests" */;
+			buildPhases = (
+				CFFCBF56177A8E6800780462 /* Sources */,
+				CFFCBF57177A8E6800780462 /* Frameworks */,
+				CFFCBF58177A8E6800780462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFCBF5F177A8E6800780462 /* PBXTargetDependency */,
+			);
+			name = RSParseTests;
+			productName = RSParseTests;
+			productReference = CFFCBF5A177A8E6800780462 /* RSParseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFCBE6B177A8ACC00780462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rex Sheng";
+			};
+			buildConfigurationList = CFFCBE6E177A8ACC00780462 /* Build configuration list for PBXProject "RSParse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFFCBE6A177A8ACC00780462;
+			productRefGroup = CFFCBE74177A8ACC00780462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFCBF4C177A8E6800780462 /* RSParse */,
+				CFFCBF59177A8E6800780462 /* RSParseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFFCBF58177A8E6800780462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFFCBF49177A8E6800780462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFCBF76177A8E8A00780462 /* AFPropertyListRequestOperation.m in Sources */,
+				CFFCBF7C177A8EE600780462 /* RSParse.m in Sources */,
+				CFFCBF6F177A8E7B00780462 /* RSParseUser.m in Sources */,
+				CFFCBF77177A8E8A00780462 /* AFURLConnectionOperation.m in Sources */,
+				CFFCBF74177A8E8A00780462 /* AFJSONRequestOperation.m in Sources */,
+				CFFCBF75177A8E8A00780462 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				CFFCBF72177A8E8A00780462 /* AFHTTPRequestOperation.m in Sources */,
+				CFFCBF70177A8E7B00780462 /* RSParseRole.m in Sources */,
+				CFFCBF71177A8E8A00780462 /* AFHTTPClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCBF56177A8E6800780462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFFCBF5F177A8E6800780462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFCBF4C177A8E6800780462 /* RSParse */;
+			targetProxy = CFFCBF5E177A8E6800780462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFFCBE94177A8ACC00780462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFFCBE95177A8ACC00780462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFCBF6A177A8E6800780462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RSParse.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSParse/RSParse-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CFFCBF6B177A8E6800780462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RSParse.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSParse/RSParse-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CFFCBF6D177A8E6800780462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSParse/RSParse-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RSParseTests/RSParseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CFFCBF6E177A8E6800780462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSParse/RSParse-Prefix.pch";
+				INFOPLIST_FILE = "RSParseTests/RSParseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFFCBE6E177A8ACC00780462 /* Build configuration list for PBXProject "RSParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFCBE94177A8ACC00780462 /* Debug */,
+				CFFCBE95177A8ACC00780462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFCBF69177A8E6800780462 /* Build configuration list for PBXNativeTarget "RSParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFCBF6A177A8E6800780462 /* Debug */,
+				CFFCBF6B177A8E6800780462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFFCBF6C177A8E6800780462 /* Build configuration list for PBXNativeTarget "RSParseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFCBF6D177A8E6800780462 /* Debug */,
+				CFFCBF6E177A8E6800780462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFCBE6B177A8ACC00780462 /* Project object */;
+}
